@@ -1,3 +1,5 @@
+#pragma GCC optimize(2)
+#pragma GCC optimize(3)
 #include <bits/stdc++.h>
 #include <bits/extc++.h>
 
@@ -104,10 +106,10 @@ int main(){
                 cur_value = (v1 + v2) / 2;
                 break;
             }
-            if(is_big(i, id2)) {
+            if(is_big(i, id1)) {
                 hi = mid - 1;
             }
-            else if(is_big(id1, i)){
+            else if(is_big(id2, i)){
                 lo = mid + 1;
             }
             else assert(0);
@@ -120,7 +122,7 @@ int main(){
     }
     for (int i = 1; i <= n; i += 1) {
         dp[i] = p[i];
-        cerr << lst[i] << " \n"[i == n];
+        //cerr << lst[i] << " \n"[i == n];
     }
     solve(0, 1);
     solve(0, 2);
@@ -129,9 +131,11 @@ int main(){
         dp[lst[i]] = min(dp[lst[i]], dp[lst[i + 1]]);
     }
 
+    /*
     for (int i = 1; i <= n; i += 1) {
         cerr << dp[i] << " \n"[i == n];
     }
+    */
     cin >> q;
     while(q--) {
         int x, y;
