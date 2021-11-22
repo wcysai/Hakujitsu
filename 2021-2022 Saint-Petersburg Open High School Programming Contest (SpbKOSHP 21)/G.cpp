@@ -52,6 +52,7 @@ int main()
     }
     ll mask=0;
     for(int i=0;i<=60;i++) if(s&(1LL<<i)) good[i]=false; else {good[i]=true; mask^=(1LL<<i);}
+    printf("mask=%lld\n",mask);
     for(int i=1;i<=n;i++)
     {
         ll tmp=(a[i]^b[i])&mask;
