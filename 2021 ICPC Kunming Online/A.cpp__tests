@@ -1,0 +1,14 @@
+[
+	{
+		"test": "2 150\nAla Gly\n"
+	},
+	{
+		"test": "1 89\nAla\n"
+	},
+	{
+		"test": "10 200\nAla Asn Asp Cys Gln Glu Gly Met Ser Thr\n"
+	},
+	{
+		"test": "10 206\nAla Asn Asp Cys Gln Glu Gly Met Ser Thr\n"
+	}
+]
