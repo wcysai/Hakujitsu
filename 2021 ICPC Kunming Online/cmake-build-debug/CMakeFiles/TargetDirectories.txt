@@ -1,3 +1,0 @@
-C:/Users/HP/Desktop/kunming/cmake-build-debug/CMakeFiles/kunming.dir
-C:/Users/HP/Desktop/kunming/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/HP/Desktop/kunming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
